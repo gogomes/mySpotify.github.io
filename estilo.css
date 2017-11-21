@@ -1,0 +1,208 @@
+html, body, .capa{
+	height: 100%
+}
+
+body{
+	background: url(imagens/capa.png),url(imagens/ruido.png),
+				linear-gradient(50deg,#ff4169,#7c26f8);
+	background-attachment: fixed;
+	font-family: 'Circular Std Book',Helvetica,Arial,sans-serif;
+	overflow-x: hidden;
+}
+
+footer{
+	background-color: #000;
+	padding: 50px 0 20px 0;
+	position: relative;
+}
+#slide{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#servico {
+	background-color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#recursos {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#dispositivos {
+	background: #fff;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.car-box{
+	margin-left: 125px;
+	padding-top: 20px;
+	width: 900px;
+	height: 400px;
+}
+
+.img_logo{
+	width: 132px;
+	height: 40px;
+	display: block;
+	background: url('imagens/spotify.svg') no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
+nav.navbar-transparency{
+	padding: 15px 0;
+	background: rgba(0,0,0,0.6);
+	border: none;
+}
+.navbar-nav>li>a {
+    font-size: 15px;
+    font-weight: 700;
+    padding-top: 28px 17px;
+}
+
+.navbar-brand{
+	padding: 5px 15px; 
+}
+
+.divisor{
+	width: 1px;
+	height: 16px;
+	background: white;
+	margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color: white;
+	font-weight: 700;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+	color: #1ed760;
+}
+
+.capa{
+	display: table;
+	width: 100%;
+}
+
+.texto_capa{
+	text-align: center;
+	color: white;
+}
+
+.btn-custom{
+	color: white;
+}
+
+.btn-stroked-light {
+    color: #fff;
+    box-shadow: 0 0 0 2px #fff inset;
+    background-color: transparent;
+}
+
+.btn-stroked-light:hover {
+    color: black;
+    box-shadow: 0 0 0 2px #fff inset;
+    background-color: #fff;
+}
+
+.btn-custom{
+	font-size: 14px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	padding: 12px 40px;
+	margin: 0 12px;
+	transition: all 0.3s;
+}
+.btn-green{
+	color: #fff;
+    background-color: #1db954;
+}
+.btn-green:hover{
+	color: #fff;
+	background-color: #1ed760;
+}
+
+.espaco{
+	padding-right:0;
+	padding-left: 0;
+}
+
+.rotation{
+	-ms-transform: rotate(-30deg);
+	-webkit-transform: rotate(-30deg);
+	transform: rotate(-30deg);
+	padding-right: 90px;
+	padding-bottom: 90px;
+}
+
+.device-list{
+	margin-top: 40px;
+	font-weight: bold;
+	list-style: none;
+	text-transform: uppercase;
+}
+.device-list>li{
+	display: inline;
+	margin-left: 5px;
+}
+.icon-right>li{
+	float: right;
+}
+
+
+#servico h2, #servico h3,#servico p{
+	color:#222326;
+}
+#recursos h2, #recursos h3, #recursos p{
+	color:#fff;
+}
+#rodape h4{
+	color: #919496;
+	font-size: 12px
+}
+
+#rodape a{
+	color: #fff;
+	font-size: 12px;
+	background-color: transparent;
+}
+
+#rodape a:hover{
+	color: #1ed760;
+}
+
+h1{
+	font-size: 85px;
+    font-weight: 900;
+    letter-spacing: -.04em;
+    margin-bottom: 50px;
+}
+
+h2{
+	font-size: 40px;
+    font-weight: 900;
+    letter-spacing: -.04em;
+    margin-bottom: 12px;
+}
+
+h3{
+	font-size: 24px;
+    font-weight: 900;
+    letter-spacing: -.04em;
+    margin-bottom: 12px;
+}
+
+p{
+	font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -.02em;
+    margin-bottom: 12px;
+}
